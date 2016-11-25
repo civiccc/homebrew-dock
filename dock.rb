@@ -2,8 +2,8 @@ require 'formula'
 
 class Dock < Formula
   homepage 'https://github.com/brigade/dock'
-  url 'https://github.com/brigade/dock/archive/v1.3.0.tar.gz'
-  sha256 'c0347d915843e0c4fdba03c4934d0177f12fd1c2a5d4abee9572919b7b022a38'
+  url 'https://github.com/brigade/dock/archive/v1.3.1.tar.gz'
+  sha256 '4b4cf2c3b6d41e81be944a6f480846ed87403aa5b55e13dafb86624b452f9ed3'
 
   def install
     bin.install File.join('bin', 'dock')
